@@ -1,0 +1,42 @@
+---
+title: "Introduction to R with learnr"
+format: html
+editor: visual
+engine: knitr
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+tutorial_options(exercise.checker = gradethis::grade_learnr)
+```
+
+# Welcome to the R Tutorial
+
+This is an interactive tutorial designed to introduce you to basic R concepts using the **learnr** package.
+
+::: {.callout-note}
+You can run the code in the embedded R consoles and answer questions directly within this document.
+:::
+
+---
+
+## Basic R Expressions
+
+Try evaluating a simple arithmetic expression in the code editor below:
+
+```{r basic-expression, exercise=TRUE}
+1 + 1
+```
+
+---
+
+## Variables and Assignment
+
+Use `<-` to assign a value to a variable. Try assigning `10` to a variable named `x`:
+
+```{r variable-assignment, exercise=TRUE}
+x <- 
+```
+
+---
