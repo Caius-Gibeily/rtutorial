@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "r4dss25"
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - text: "Introduction"
+        href: output.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+editor: visual
